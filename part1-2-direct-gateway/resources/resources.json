@@ -1,0 +1,37 @@
+{
+  "pi": {
+    "name": "dfmachine Pi",
+    "description": "Daniel (a83250) and Filipe (a85493) WoT RPI",
+    "port": 8484,
+    "sensors": {
+      "temperature": {
+        "name": "Temperature Sensor",
+        "description": "An ambient temperature sensor.",
+        "unit": "celsius",
+        "value": 0,
+        "gpio": 12
+      },
+      "humidity": {
+        "name": "Humidity Sensor",
+        "description": "An ambient humidity sensor.",
+        "unit": "%",
+        "value": 0,
+        "gpio": 12
+      },
+      "light": {
+        "name": "Light Sensor",
+        "description": "An ambient light sensor.",
+        "unit": "lux",
+        "value": 0,
+        "gpio": 12
+      },
+      "pressure": {
+        "name": "Pressure Sensor",
+        "description": "An ambient pressure sensor.",
+        "unit": "hPA",
+        "value": 0,
+        "gpio": 12
+      }
+    }
+  }
+}
